@@ -1,17 +1,15 @@
-html, body {
+html {
   margin: 0;
   padding: 0;
-  height: 100%;
 	background-color: #ebebeb;
+  background: url(../images/symphony.png);
 	color: #142033;
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
 }
 
 #container {
-  width: 21%;
-  margin-right: auto;
-  margin-left: auto;
-  border: 1px solid black;
+  width: 293px;
+  margin: auto;
 }
 
 #top-wrap {
@@ -52,55 +50,55 @@ html, body {
 	width: 168px;
 	height: 141px;
 	display: block;
-	background: url(../images/navyblue/cy_logo_navyblue_filled.png) top left no-repeat;
+  background: url(../images/navyblue/cy_logo_navyblue.png) top left no-repeat;
+  z-index: 5;
 }
 
 #logo a:hover{
 	-webkit-transform: scale(0.9) rotate(2deg);
 	-moz-transform: scale(0.9) rotate(2deg);
 	-o-transform: scale(0.9) rotate(2deg);
-	transform: scale(0.9) rotate(2deg;)
+	transform: scale(0.9) rotate(2deg;);
 }
 
-#social {
-  display:inline-block;
+#social-icons {
+  clear: both;
+  padding-bottom: 10px;
 }
 
-#social li {
-	display:inline-block;
-	list-style: none;
-	padding: 0px;
-	margin: 0px 4px 0px 0px;
+#social-icons ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   text-align: center;
 }
 
-#social a {
-	display: block;
-	text-indent: -9999px;
-	width: 36px;
-	height: 36px;
+#social-icons ul li {
+  display: inline;
 }
 
-#social a:hover {
-	background-position: 0px 2px;
+#social-icons ul li a
+{
+  padding: .2em 1em;
+	color: #142033;
+  text-shadow: 1px 2px 3px #888;
 }
 
-#social a.linkedin {
-	background: url(../images/navyblue/social_linkedin_filled.png) no-repeat;
+#social-icons ul li a:hover
+{
 }
-
-#social a.github {
-	background: url(../images/navyblue/social_github_filled.png) no-repeat;
-	
-}
-
-#social a.email{
-	background: url(../images/navyblue/social_email_filled.png) no-repeat;	
-}
-
 
 #tagline {
   text-align: center;
 }
 
+#tagline a {
+	color: #142033;
+}
+
+#tagline a:hover {
+	color: #ebebeb;
+	background-color: #142033;
+}
 
