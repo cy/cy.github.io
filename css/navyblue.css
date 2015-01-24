@@ -7,8 +7,15 @@ html, body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "sans-serif";
 }
 
+#container {
+  width: 21%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+}
+
 #top-wrap {
-  display: inline-block;
+  width: 293px;
 }
 
 #header-text{
@@ -18,6 +25,7 @@ html, body {
 
 #logo {
   text-indent: -99999px;
+  float: right;
 }
 
 #header-text h1 {
@@ -63,6 +71,7 @@ html, body {
 	list-style: none;
 	padding: 0px;
 	margin: 0px 4px 0px 0px;
+  text-align: center;
 }
 
 #social a {
@@ -76,16 +85,22 @@ html, body {
 	background-position: 0px 2px;
 }
 
-a.linkedin {
+#social a.linkedin {
 	background: url(../images/navyblue/social_linkedin_filled.png) no-repeat;
 }
 
-a.github {
+#social a.github {
 	background: url(../images/navyblue/social_github_filled.png) no-repeat;
 	
 }
 
-a.email{
+#social a.email{
 	background: url(../images/navyblue/social_email_filled.png) no-repeat;	
 }
+
+
+#tagline {
+  text-align: center;
+}
+
 
